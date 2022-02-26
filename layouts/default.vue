@@ -33,6 +33,8 @@
 </template>
 
 <script>
+import { routes } from '@/lib/routes'
+
 export default {
   name: 'DefaultLayout',
   data() {
@@ -40,34 +42,7 @@ export default {
       clipped: false,
       drawer: false,
       fixed: false,
-      items: [
-        {
-          title: 'Home',
-          to: '/',
-        },
-
-        {
-          title: 'Legal Considerations',
-          to: '/legal-considerations',
-        },
-        {
-          title: 'Size Up the Scene',
-          to: '/size-up-the-scene',
-        },
-        {
-          title: 'Primary Assessment',
-          to: '/primary-assessment',
-        },
-        {
-          title: 'Secondary Assessment',
-          to: '/secondary-assessment',
-        },
-
-        {
-          title: 'Sources',
-          to: '/sources',
-        },
-      ],
+      items: routes,
       miniVariant: false,
       right: true,
       rightDrawer: false,

@@ -13,7 +13,7 @@ The first assessment after scene safety is ensured. Use the ABCDEG acronym:
   - Check Heart Rate, normal HR is 60 to 100.
   - Check Perfusion.
 - **D**isability
-  - Are there spinal issues?
+  - Are there spinal issules?
   - APVU scale, do they Aware, or respond to Pain or Verbal stimuli, or are they Unresponsive.
 - **E**xposure/Environment
   - Cut away clothing to expose injuries.

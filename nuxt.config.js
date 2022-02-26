@@ -1,9 +1,17 @@
+import { routes } from './lib/routes'
+
+const generateRoutes = routes.map((route) => route.to)
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   server: {
     port: 3911,
+  },
+
+  generate: {
+    routes: generateRoutes,
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
