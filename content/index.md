@@ -1,5 +1,6 @@
 ---
 title: Home
+order: 1
 ---
 
 ### About this site

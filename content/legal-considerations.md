@@ -1,5 +1,5 @@
 ---
-title: Wilderness Medicine Legal Considerations
+title: Legal Considerations
 ---
 
 ## Negligence
