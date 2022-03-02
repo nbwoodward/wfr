@@ -16,7 +16,7 @@
 export default {
   async asyncData({ $content, params }) {
     let pageFound = true
-    const pageName = params.page === undefined ? 'home' : params.page
+    const pageName = params.page === undefined ? 'index' : params.page
 
     const page = await $content(pageName)
       .fetch()
