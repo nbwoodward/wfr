@@ -1,0 +1,8 @@
+{
+  "name": "Patient Assessment",
+  "slug": "assessment",
+  "description": "Primary and secondary surveys for patient evaluation",
+  "icon": "heart",
+  "color": "#dc2626",
+  "order": 1
+}

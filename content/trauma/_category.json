@@ -1,0 +1,8 @@
+{
+  "name": "Trauma",
+  "slug": "trauma",
+  "description": "Injury assessment and treatment protocols",
+  "icon": "bone",
+  "color": "#8b5cf6",
+  "order": 3
+}

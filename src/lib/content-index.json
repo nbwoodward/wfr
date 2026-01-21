@@ -1,0 +1,256 @@
+{
+  "protocols": [
+    {
+      "slug": "abcde",
+      "title": "ABCDE Assessment",
+      "category": "assessment",
+      "tags": ["primary survey", "airway", "breathing", "circulation", "trauma"],
+      "summary": "Primary survey for systematic patient assessment",
+      "severity": "standard",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 1
+    },
+    {
+      "slug": "sample",
+      "title": "SAMPLE History",
+      "category": "assessment",
+      "tags": ["history", "patient assessment", "interview", "medical history"],
+      "summary": "Mnemonic for gathering patient medical history",
+      "severity": "standard",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 2
+    },
+    {
+      "slug": "opqrst",
+      "title": "OPQRST Pain Assessment",
+      "category": "assessment",
+      "tags": ["pain", "assessment", "chest pain", "abdominal pain", "history"],
+      "summary": "Systematic approach to evaluating patient pain complaints",
+      "severity": "standard",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 3
+    },
+    {
+      "slug": "anaphylaxis",
+      "title": "Anaphylaxis",
+      "category": "medical",
+      "tags": ["epinephrine", "allergic reaction", "airway", "epipen"],
+      "summary": "Life-threatening allergic reaction requiring immediate epinephrine",
+      "severity": "critical",
+      "evacuate": "immediate",
+      "quickRef": true,
+      "order": 1
+    },
+    {
+      "slug": "asthma",
+      "title": "Asthma",
+      "category": "medical",
+      "tags": ["respiratory", "bronchospasm", "inhaler", "wheezing", "dyspnea"],
+      "summary": "Acute bronchospasm and respiratory distress management",
+      "severity": "urgent",
+      "evacuate": "urgent",
+      "quickRef": true,
+      "order": 2
+    },
+    {
+      "slug": "cardiac",
+      "title": "Cardiac Emergencies",
+      "category": "medical",
+      "tags": ["heart attack", "chest pain", "ACS", "CPR", "cardiac arrest", "angina"],
+      "summary": "Recognition and management of heart attacks and cardiac emergencies",
+      "severity": "critical",
+      "evacuate": "immediate",
+      "quickRef": true,
+      "order": 3
+    },
+    {
+      "slug": "diabetic",
+      "title": "Diabetic Emergencies",
+      "category": "medical",
+      "tags": ["diabetes", "hypoglycemia", "hyperglycemia", "insulin", "blood sugar"],
+      "summary": "Recognition and treatment of low and high blood sugar emergencies",
+      "severity": "urgent",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 4
+    },
+    {
+      "slug": "seizures",
+      "title": "Seizures",
+      "category": "medical",
+      "tags": ["seizure", "convulsions", "epilepsy", "altered mental status"],
+      "summary": "Management of seizures and post-seizure care",
+      "severity": "urgent",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 5
+    },
+    {
+      "slug": "stroke",
+      "title": "Stroke",
+      "category": "medical",
+      "tags": ["stroke", "CVA", "TIA", "neurological", "facial droop", "weakness"],
+      "summary": "Recognition of stroke using FAST assessment and emergency response",
+      "severity": "critical",
+      "evacuate": "immediate",
+      "quickRef": true,
+      "order": 6
+    },
+    {
+      "slug": "bleeding-control",
+      "title": "Bleeding Control",
+      "category": "trauma",
+      "tags": ["hemorrhage", "tourniquet", "wound packing", "direct pressure"],
+      "summary": "Life-threatening hemorrhage control techniques",
+      "severity": "critical",
+      "evacuate": "immediate",
+      "quickRef": true,
+      "order": 1
+    },
+    {
+      "slug": "wound-care",
+      "title": "Wound Care",
+      "category": "trauma",
+      "tags": ["wound", "laceration", "abrasion", "cleaning", "infection", "dressing"],
+      "summary": "Cleaning, irrigation, and dressing wounds in wilderness settings",
+      "severity": "standard",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 2
+    },
+    {
+      "slug": "fractures",
+      "title": "Fractures & Dislocations",
+      "category": "trauma",
+      "tags": ["fracture", "dislocation", "splint", "broken bone", "orthopedic"],
+      "summary": "Assessment, splinting, and management of musculoskeletal injuries",
+      "severity": "urgent",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 3
+    },
+    {
+      "slug": "spinal",
+      "title": "Spinal Injuries",
+      "category": "trauma",
+      "tags": ["spine", "spinal cord", "c-spine", "paralysis", "immobilization"],
+      "summary": "Assessment and immobilization of potential spine injuries",
+      "severity": "critical",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 4
+    },
+    {
+      "slug": "hypothermia",
+      "title": "Hypothermia",
+      "category": "environmental",
+      "tags": ["cold", "hypothermia", "rewarming", "cold injury", "temperature"],
+      "summary": "Recognition and treatment of core body temperature below 95°F (35°C)",
+      "severity": "critical",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 1
+    },
+    {
+      "slug": "hyperthermia",
+      "title": "Heat Illness",
+      "category": "environmental",
+      "tags": ["heat", "hyperthermia", "heat stroke", "heat exhaustion", "dehydration"],
+      "summary": "Recognition and treatment of heat exhaustion and heat stroke",
+      "severity": "critical",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 2
+    },
+    {
+      "slug": "altitude",
+      "title": "Altitude Illness",
+      "category": "environmental",
+      "tags": ["altitude", "AMS", "HACE", "HAPE", "mountain sickness"],
+      "summary": "Recognition and treatment of AMS, HACE, and HAPE",
+      "severity": "urgent",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 3
+    },
+    {
+      "slug": "lightning",
+      "title": "Lightning Injuries",
+      "category": "environmental",
+      "tags": ["lightning", "electrical", "cardiac arrest", "burns", "thunder"],
+      "summary": "Assessment and treatment of lightning strike victims",
+      "severity": "critical",
+      "evacuate": "immediate",
+      "quickRef": true,
+      "order": 4
+    },
+    {
+      "slug": "bites-stings",
+      "title": "Bites & Stings",
+      "category": "environmental",
+      "tags": ["snake", "spider", "bee", "wasp", "tick", "envenomation"],
+      "summary": "Recognition and treatment of venomous bites and stings",
+      "severity": "urgent",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 5
+    },
+    {
+      "slug": "decision-making",
+      "title": "Evacuation Decision Making",
+      "category": "evacuation",
+      "tags": ["evacuation", "transport", "decision", "urgency", "helicopter"],
+      "summary": "Framework for deciding when, how urgently, and by what means to evacuate",
+      "severity": "standard",
+      "evacuate": "varies",
+      "quickRef": true,
+      "order": 1
+    }
+  ],
+  "categories": {
+    "assessment": {
+      "name": "Patient Assessment",
+      "slug": "assessment",
+      "description": "Primary and secondary surveys for patient evaluation",
+      "icon": "heart",
+      "color": "#dc2626",
+      "order": 1
+    },
+    "medical": {
+      "name": "Medical Emergencies",
+      "slug": "medical",
+      "description": "Common medical conditions and emergencies",
+      "icon": "alert-triangle",
+      "color": "#f97316",
+      "order": 2
+    },
+    "trauma": {
+      "name": "Trauma",
+      "slug": "trauma",
+      "description": "Injury assessment and treatment",
+      "icon": "bone",
+      "color": "#8b5cf6",
+      "order": 3
+    },
+    "environmental": {
+      "name": "Environmental",
+      "slug": "environmental",
+      "description": "Weather and exposure emergencies",
+      "icon": "thermometer",
+      "color": "#0891b2",
+      "order": 4
+    },
+    "evacuation": {
+      "name": "Evacuation",
+      "slug": "evacuation",
+      "description": "When and how to evacuate patients",
+      "icon": "truck",
+      "color": "#16a34a",
+      "order": 5
+    }
+  },
+  "generatedAt": "2025-01-15T00:00:00.000Z"
+}

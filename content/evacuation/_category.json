@@ -1,0 +1,8 @@
+{
+  "name": "Evacuation",
+  "slug": "evacuation",
+  "description": "When and how to evacuate patients",
+  "icon": "truck",
+  "color": "#16a34a",
+  "order": 5
+}

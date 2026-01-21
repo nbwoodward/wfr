@@ -1,0 +1,8 @@
+{
+  "name": "Medical Emergencies",
+  "slug": "medical",
+  "description": "Common medical conditions and emergencies",
+  "icon": "alert-triangle",
+  "color": "#f97316",
+  "order": 2
+}
